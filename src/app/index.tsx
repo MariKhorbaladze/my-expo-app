@@ -34,6 +34,9 @@ export default function HomeScreen() {
       <Link href="/about" style={styles.link}>
         ჩემ შესახებ →
       </Link>
+      <Link href="/users" style={styles.link}>
+        მომხმარებლები →
+      </Link>
     </SafeAreaView>
   );
 }
